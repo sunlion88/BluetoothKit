@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/uuids"
+        android:textColor="#111" />
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/rad1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:text="@string/nomalm"-->
+<!--        android:textColor="#111"-->
+<!--        android:visibility="gone"/>-->
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/rad2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:text="@string/bt16m"-->
+<!--        android:textColor="#111"-->
+<!--        android:visibility="gone"/>-->
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/rad3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:text="@string/spmod"-->
+<!--        android:textColor="#111"-->
+<!--        android:visibility="gone"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/serviceUUId"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/setserviceuuid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789ABCDEF-abcdef"
+            android:maxLength="36"
+            android:textColor="#111"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/NotifyUUID"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/setnotifyuuid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789ABCDEF-abcdef"
+            android:maxLength="36"
+            android:textColor="#111"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/WriteUID"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/setwriteuuid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789ABCDEF-abcdef"
+            android:maxLength="36"
+            android:textColor="#111"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>
