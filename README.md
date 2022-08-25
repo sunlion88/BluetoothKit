@@ -1,2 +1,2 @@
 # BluetoothKit
-#一个蓝牙串口调用应用app。
+#一个蓝牙串口调式应用app。
